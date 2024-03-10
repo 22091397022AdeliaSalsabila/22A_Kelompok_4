@@ -5,7 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 class Page2 extends StatelessWidget {
   final Uri _urlwa = Uri.parse("https://wa.me/+6282154891123");
   final Uri urlemail =
-  Uri(scheme: 'mailto', path: "kevincahyo.22051@mhs.unesa.ac.id");
+  Uri(scheme: 'mailto', path: "adeliasalsabila.22022@mhs.unesa.ac.id");
   final Uri _urlgithub = Uri.parse("https://vinsmith-mib.github.io/portofolio_web/");
 
   Page2({Key? key}) : super(key: key);
@@ -23,7 +23,7 @@ class Page2 extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Color.fromARGB(39, 97, 97, 97),
         title: const Text(
-          "Kevin Cahyo Pratama",
+          "Adelia Salsabila",
           style: TextStyle(
             color: Colors.white,
           ),
@@ -48,7 +48,7 @@ class Page2 extends StatelessWidget {
                         borderRadius:
                         const BorderRadius.all(Radius.circular(10)),
                         child: Image.asset(
-                          'assets/kevin.jpg',
+                          'assets/kucing.jpg',
                           fit: BoxFit.fill,
                         ),
                       ),
@@ -95,7 +95,7 @@ class Page2 extends StatelessWidget {
                       Container(
                         width: 165,
                         child: const Text(
-                            "Hai,Perkenalkan nama saya adalah Kevin Cahyo Pratama,Saya merupakan seorang mahasiswa dari Universitas Negeri Surabaya.Saya bercita cita menjadi menjadi manusia biasa.Saya juga sangat memiliki ketertarikan yang amat besar pada frasa Pemrograman mobile.",
+                            "Hai",
                             textAlign: TextAlign.start,
                             style: TextStyle(
                               fontSize: 11,
